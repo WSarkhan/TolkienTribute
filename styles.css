@@ -1,0 +1,126 @@
+/* Reset scroll behavior to smooth for all elements */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+/* General styles */
+a {
+  color: #845007;
+}
+
+a:hover {
+  color: #3a4660;
+  background: #ed8a63;
+}
+
+.divider {
+  border-top: 8px solid #3a4660;
+  margin-top: 0;
+  vertical-align: top;
+}
+
+#titlecap {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/* Body + background */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+  color: #3a4660;
+  width: auto;
+  text-align: center;
+  max-width: 50em;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+html {
+  background: url('https://i.imgur.com/NrgFc4C.jpeg');
+  background-size: cover;
+}
+
+.content {
+  text-align: center;
+  background-color: #c9af98;
+  border-radius: 10px;
+}
+
+/* Typography */
+#title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  color: #3a4660;
+  padding: 5px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 0;
+}
+
+#caption {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  color: #3a4660;
+  padding-top: 0;
+  padding-bottom: 5px;
+  font-weight: 700;
+}
+
+/* Image for the tribute */
+figure.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: auto;
+}
+
+img {
+  background-color: #3a4660;
+  padding: 1%;
+  border-radius: 5%;
+  max-width: 100%;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  display: inline;
+}
+
+.caption {
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #3a4660;
+  font-weight: 700;
+  margin: 1% 0;
+  padding: 2%;
+  background: #c9af98;
+  border-radius: 10px;
+}
+
+.info-title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5em; /* Fixed the font size value */
+  color: #3a4660;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  font-weight: 550;
+  background-color: #c9af98;
+  border-radius: 10px;
+}
+
+.info {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #3a4660;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  font-weight: 550;
+  background-color: #c9af98;
+  border-radius: 10px;
+}
